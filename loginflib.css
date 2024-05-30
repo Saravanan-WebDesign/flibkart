@@ -1,0 +1,119 @@
+
+
+
+body{
+    background-image: url(assets/login/R.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.heading{
+    color: wheat;
+    text-align: center;
+    font-family: "Briem Hand", cursive;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.mydivision{
+width: 600px;
+height: 600px;
+background-color: rgba(0, 0, 0, 0.41);
+/* justify-content: unset; */
+position: relative;
+top: 80px;
+left: 430px;
+border: 0.3px solid black;
+border-radius: 20px;
+}
+
+.mydivision:hover{
+    box-shadow: 0px 0px 20px whitesmoke;
+    transition-property: box-shadow;
+    transition-timing-function: linear;
+    transition: 0.6s;
+}
+label {
+    color: wheat;
+    font-family: "Briem Hand", cursive;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 23px;
+padding: 20px;
+}
+
+input {
+    font-family: "Briem Hand", cursive;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+    padding: 5px;
+    font-size: 18px;
+    border: 0.3px solid rgb(181, 168, 168);
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.626);
+    width: 220px;
+    color: whitesmoke;
+}
+
+button{
+    color: black;
+    font-size: 20px;
+    border-radius: 4px;
+    font-family: "Briem Hand", cursive;
+  font-optical-sizing: auto;
+  font-weight: 100;
+
+}
+
+
+.mydivision .child-div{
+   margin-top: 90px;
+  
+    
+}
+.images-division{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.images-division .child-images img{
+   width: 250px;
+   height: 400px;
+}
+
+.images-division .child-images img:hover{
+ 
+  box-sizing: border-box;
+  box-shadow: 0px 0px 10px wheat;
+  transition-duration:0.5s ;
+  transform: scale(1.1);
+
+}
+
+.myhead{
+  color: wheat;
+}
+
+
+.myh4{
+  color: wheat;
+}
+
+
+#myHeadingValues{
+  color: wheat;
+}
+#myButton{
+  width: 100px;
+  color: wheat;
+}
+#myButton:hover{
+  background-color:wheat ;
+  color: black;
+}

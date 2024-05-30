@@ -1,0 +1,154 @@
+
+
+
+
+
+.flex-item-image-icons{
+
+    display: flex;
+    margin-top: 20px;
+    box-sizing: border-box;
+    max-width: 100%;
+    flex-wrap: wrap;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+
+#icon-flib-cart{
+  width: 35px;
+}
+
+.flex-item-image-icons img:hover{
+
+    transition-duration: 0.2s ;
+    transform: scale(1.1);
+
+}
+
+
+
+.flex-item-image-icons p:hover{
+
+    color: lightpink;
+    cursor: pointer;
+}
+
+
+
+.flex-item-image-icons p{
+    font-size: 20px;
+    padding: 5px;
+    color: rgb(6, 6, 106);
+    align-items: baseline;
+}
+
+
+.gallery-item {
+    margin-bottom: 20px;
+    text-align: center;
+    border: 0.2px solid rgba(0, 0, 0, 0.144);
+    
+    
+  }
+
+  .gallery-item img{
+    width: 150px;
+    padding: 10px;
+    height: auto;
+    
+  }
+
+  .gallery-item img:hover{
+    transition-duration:0.5s ;
+    transform: scale(1.1);
+  }
+  .gallery-item img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .gallery-item p{
+    
+    align-items: baseline;
+  }
+  .images-section-of-border img{
+
+    max-width: 100%;
+    height: auto;
+    padding: 0%;
+    margin-top:30px;
+  }
+
+  .images-section-of-border img:hover{
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.508);
+  }
+
+  .fontsize-of-this-h1{
+    font-size: 20px ;
+    font-family: monospace;
+
+  }
+
+  .gallery-item h1{
+
+    color: red;
+    font-size: 23px;
+    padding: 0;
+    margin: 0;
+    text-shadow: 0px 0px 3px black;
+    
+  }
+
+  .gallery-item h1:hover{
+
+    color: black;
+    
+
+  }
+
+
+  .h1-footer-section{
+    color: gray;
+    text-shadow: 0px 0px 5px;
+  }
+
+  
+
+  
+
+
+  .footer-section{
+    background-color: rgb(53, 53, 188);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 30px;
+
+  }
+
+  
+  .footer-section div{
+    font-size: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+    
+  }
+
+  
+
+  div.paragraph-design {
+    
+    width:100%;
+    height: 100px;
+    overflow-x: scroll;
+    padding: 20px;
+    margin: 10px;
+  }
+
+
